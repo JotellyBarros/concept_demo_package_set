@@ -1,8 +1,6 @@
 
 def make_package(name)
   import_package(name) do |pkg|
-    pkg.depends_on 'python3.5'
-    pkg.depends_on 'python3-pip'
 
     def pkg.prepare
       isolate_errors do
