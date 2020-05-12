@@ -1,0 +1,9 @@
+<package>
+    <description brief="">
+    </description>
+    <maintainer></maintainer>
+    <license></license>
+    <url></url>
+    <depend package="python3-pip"/>
+    <depend package="python3.5"/>
+</package>

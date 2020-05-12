@@ -1,0 +1,4 @@
+---
+automake:
+  ubuntu:
+  - automake

@@ -1,0 +1,5 @@
+name: concept.demo
+
+version_control:
+  - .*:
+    github: JotellyBarros/$PACKAGE_BASENAME
