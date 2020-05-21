@@ -1,5 +1,7 @@
 name: concept.demo
 
 version_control:
-  - .*:
+  - .*:  # This is a good idea
     github: JotellyBarros/$PACKAGE_BASENAME
+  - video_stream_opencv_custom:  # Not good, override an current system package, and package definition different from name 
+    github: JotellyBarros/video_stream_opencv
