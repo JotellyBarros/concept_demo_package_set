@@ -1,3 +1,8 @@
 
 # catkin_package 'ros_video_provider'
 catkin_package 'video_stream_opencv_custom'
+catkin_package 'orb_slam_ros'
+cmake_package 'DBoW2_orb_slam_ros'
+cmake_package 'DBoWLib'
+cmake_package 'g2o_orb_slam_ros'
+cmake_package 'Pangolin'

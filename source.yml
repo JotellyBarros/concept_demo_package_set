@@ -5,3 +5,14 @@ version_control:
     github: JotellyBarros/$PACKAGE_BASENAME
   - video_stream_opencv_custom:  # Not good, override an current system package, and package definition different from name 
     github: JotellyBarros/video_stream_opencv
+  - orb_slam_ros:
+    github: JotellyBarros/orb_slam_ros
+    branch: orb-slam_ros_arg
+  - DBoW2_orb_slam_ros:
+    github: dorian3d/DBoW2
+  - g2o_orb_slam_ros:
+    github: RainerKuemmerle/g2o
+  - Pangolin:
+    github: stevenlovegrove/Pangolin
+  - DBoWLib:
+    github: dorian3d/DLib
