@@ -1,1 +1,23 @@
 # Add gems, pip and OS packages here
+libopencv3:
+  ubuntu:
+    xenial: ros-kinetic-opencv3
+    bionic: libopencv-dev
+libnlopt-dev:
+  debian:
+  - libnlopt-dev
+  fedora:
+  - NLopt-devel
+  gentoo:
+  - sci-libs/nlopt
+  ubuntu:
+  - libnlopt-dev
+libnlopt0:
+  debian:
+  - libnlopt0
+  fedora:
+  - NLopt
+  gentoo:
+  - sci-libs/nlopt
+  ubuntu:
+  - libnlopt0

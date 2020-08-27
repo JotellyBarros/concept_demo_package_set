@@ -11,8 +11,18 @@ version_control:
   - DBoW2_orb_slam_ros:
     github: dorian3d/DBoW2
   - g2o_orb_slam_ros:
-    github: RainerKuemmerle/g2o
+    github: JotellyBarros/g2o_orb_slam_ros
   - Pangolin:
     github: stevenlovegrove/Pangolin
   - DBoWLib:
     github: dorian3d/DLib
+  - lsd_slam:
+    github: JotellyBarros/lsd_slam
+  - easy_profiler:
+    github: yse/easy_profiler
+  - dehaze_underwater_image_ros:
+    github: Brazilian-Institute-of-Robotics/dehaze_underwater_image_ros
+  - dehaze_underwater_image:
+    github: trocolit2/dehaze_underwater_image
+  - backscatter_identification_opencv:
+    github: Brazilian-Institute-of-Robotics/backscatter_identification_opencv

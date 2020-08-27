@@ -1,8 +1,13 @@
-
-# catkin_package 'ros_video_provider'
 catkin_package 'video_stream_opencv_custom'
 catkin_package 'orb_slam_ros'
+cmake_package 'dehaze_underwater_image'
+catkin_package 'dehaze_underwater_image_ros'
+catkin_package 'backscatter_identification_opencv'
+cmake_package 'easy_profiler'
 cmake_package 'DBoW2_orb_slam_ros'
 cmake_package 'DBoWLib'
 cmake_package 'g2o_orb_slam_ros'
 cmake_package 'Pangolin'
+# catkin_metapackage 'lsd_slam',
+#     'lsd_slam_core',
+#     'lsd_slam_viewer'
